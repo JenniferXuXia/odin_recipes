@@ -1,0 +1,53 @@
+:root {
+    --sage: #ccd5ae;
+    --mint: #e9edc9;
+    --leche: #fefae0;
+    --sand: #faedcd;
+    --caramel: #d4a373;
+}
+
+* {
+    font-family: Verdana, sans-serif;
+    line-height: 1.5;
+    background-color: #fffdef;
+}
+
+h1, h2, h3 {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+h1 {
+    background-color: var(--sage);
+    border: 5px solid;
+    border-color: var(--caramel);
+}
+
+h2 {
+    background-color: var(--mint);
+}
+
+h3 {
+    background-color: var(--sand);
+}
+
+img {
+    height: 400px;
+    width: auto;
+    border: 5px solid;
+    border-color: var(--caramel);
+    /*to center*/
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.recipe-card {
+    background-color: var(--leche);
+    border: 5px solid;
+    border-color: var(--sage);
+}
+
+.recipe-card {
+    background-color: var(--leche);
+}
