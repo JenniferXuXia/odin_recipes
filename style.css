@@ -48,6 +48,24 @@ img {
     border-color: var(--sage);
 }
 
-.recipe-card {
-    background-color: var(--leche);
+.recipes-list {
+    width: 80%;
+    margin: auto;
+    border: 5px dotted;
+    border-color: var(--sage);
+    background-color: var(--sand);
+}
+
+.recipes-list li {
+    display: inline-block;
+    width: 30%;
+    margin: 2.5%;
+    padding: 2.5%;
+    border: 5px dotted;
+    border-color: var(--leche);
+    background-color: var(--mint);
+}
+
+div, ul, ol, li, p, a {
+    background-color: inherit;
 }
